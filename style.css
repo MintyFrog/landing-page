@@ -23,14 +23,22 @@ li{
 
 a{
     text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
 }
 
 
 /*All of this is header*/
 .header{
-    background-color: #898e96;
+    background-color: #1F2937;
     display: flex;
     flex-direction: column;
+}
+
+.header-title{
+    font-size: 24px;
+    font-weight: 500;
+    color: #F9FAF8;
 }
 
 .main-header-container{
@@ -53,16 +61,24 @@ a{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    gap: 24px;
 }
 
 .header-info-title{
     font-size: 48px;
     font-weight: 900;
+    color: #F9FAF8;
+}
+
+.header-info-content{
+    font-size: 18px;
+    color: #E5E7EB;
 }
 
 .header-info-button{
     cursor: pointer;
     color: white;
+    width: 50%;
     background-color: #3882F6;
     border: 1px solid #3882F6;
     border-radius: 10px;
@@ -73,7 +89,7 @@ a{
 
 .info-img{
     width: 400px;
-    height: 200px;
+    height: 220px;
 }
 
 /*Content start here*/
