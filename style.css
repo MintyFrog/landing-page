@@ -88,8 +88,8 @@ a{
 }
 
 .info-img{
-    width: 400px;
-    height: 220px;
+    width: inherit;
+    height: 70%;
 }
 
 /*Content start here*/
@@ -201,3 +201,11 @@ a{
     padding: 12px 24px 12px 24px;
 }
 
+/*All of the below is for the footer*/
+.footer{
+    margin-top: auto;
+    padding: 26px;
+    text-align: center;
+    background-color: #1F2937;
+    color: #F9FAF8;
+}
